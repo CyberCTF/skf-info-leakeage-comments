@@ -4,11 +4,5 @@
   "question": "Find the information leaked in the page source and use it to log in.",
   "category": "WEB",
   "difficulty": 1,
-  "evidence_kind": "SECRET",
-  "capabilities": [
-    "information-disclosure",
-    "source-review",
-    "html",
-    "recon"
-  ]
+  "evidence_kind": "SECRET"
 }
