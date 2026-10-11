@@ -1,7 +1,7 @@
 {
   "title": "OWASP SKF Information Leakage in Comments",
   "description": "A Flask application with a login form. The developers left comments in the HTML that the browser does not show.",
-  "question": "Find the information leaked in the page source and use it to log in.",
+  "question": "Find the information leaked in the page source and use it to log in. The flag is in /ctf/flag.",
   "category": "WEB",
   "difficulty": 1,
   "evidence_kind": "SECRET"

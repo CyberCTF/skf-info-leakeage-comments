@@ -1,0 +1,33 @@
+{
+  "objectives": [
+    {
+      "key": "main",
+      "title": "Read the flag",
+      "prompt": "Find what leaks in the page source and retrieve the flag (/ctf/flag).",
+      "check": {
+        "evidence": "SECRET",
+        "format": "FLAG{%s}"
+      },
+      "dev": "FLAG{dev-skf-info-leakeage-comments}",
+      "hints": [
+        "The browser hides some of what the developers left in the HTML.",
+        "View the page source and read the HTML comments."
+      ],
+      "steps": [
+        {
+          "key": "where",
+          "title": "Find the leak",
+          "prompt": "Where in the page did the developers leave the information?",
+          "check": {
+            "answer": [
+              "html comments",
+              "comments",
+              "comment",
+              "source code comments"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
